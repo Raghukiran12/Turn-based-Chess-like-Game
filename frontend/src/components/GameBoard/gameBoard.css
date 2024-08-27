@@ -1,0 +1,36 @@
+/* GameBoard.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.board div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #333;
+  background-color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.board div:nth-child(even) {
+  background-color: #ddd;
+}
