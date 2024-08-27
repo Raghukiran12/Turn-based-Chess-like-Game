@@ -129,7 +129,7 @@ const GameBoard = () => {
 
   return (
     <div className="game-board">
-      <h1>Advanced Chess-like Game</h1>
+      <h1>Turn-based Chess-like Game</h1>
       {gameStatus && <div className="game-status">{gameStatus}</div>}
       <div className="current-player">Current Player: {currentPlayer}</div>
       <div className="board" style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 60px)' }}>
